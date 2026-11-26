@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How the Take It Out Uploader uses Google and YouTube data.">
+  <title>Privacy Policy | Take It Out Uploader</title>
+  <link rel="stylesheet" href="../site.css">
+</head>
+<body>
+  <main>
+    <p><a href="../">Take It Out Uploader</a></p>
+    <h1>Privacy Policy</h1>
+    <p>Effective November 25, 2026</p>
+    <p>Take It Out Uploader uses YouTube API Services to operate the Take It Out Lab channel with the channel owner’s permission. This site provides information about that tool. Connecting the uploader happens through Google’s consent screen.</p>
+
+    <h2>Data the uploader accesses</h2>
+    <p>Google supplies authorization credentials when the channel owner connects the uploader. The uploader reads the channel ID and handle to verify the account. It reads video IDs, titles, release times, and visibility and processing status to schedule and verify uploads. It reads aggregate views, likes, comment counts, engaged views, average percentage viewed, and shares for the owner’s production review.</p>
+
+    <h2>How data is used and stored</h2>
+    <p>The uploader uses the credentials to connect to YouTube for these features. The credentials are stored in the owner’s local setup and as encrypted secrets in the private GitHub repository. GitHub Actions uses the credentials to run the uploader. Private release records and performance reports are stored in that repository. The rolling audit keeps up to 14 days of snapshots in its current file. Earlier versions can remain in private repository history until removed.</p>
+    <p>The owner’s Claude production task reads the private performance report to inform future episodes. The uploader uses Google user data for the channel operations described here. It does not sell it or use it for advertising.</p>
+
+    <h2>Revocation and deletion</h2>
+    <p>The channel owner can revoke the uploader’s access from <a href="https://myaccount.google.com/permissions">Google Account permissions</a>. Revocation stops the uploader from making new authorized requests. Use the contact below to request deletion of stored Google or YouTube data, including any copies that remain in private repository history.</p>
+
+    <h2 id="contact">Contact</h2>
+    <p>For questions, complaints, or deletion requests, <a href="https://github.com/paolomorliere/paolomorliere.github.io/issues/new?title=Take%20It%20Out%20Uploader%20privacy%20request">contact the uploader owner on GitHub</a>. The issue is public. Use a generic subject and keep account details, credentials, or other private information out of the issue.</p>
+
+    <p>See <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a> and the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</p>
+  </main>
+</body>
+</html>
